@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Khan Pro Fleet Auto</title>
+  <!-- Tailwind Play CDN for quick styling (production: replace with proper build) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <header class="bg-white shadow">
+    <div class="max-w-5xl mx-auto px-6 py-6 flex items-center justify-between">
+      <div>
+        <h1 class="text-2xl font-bold">Khan Pro Fleet Auto</h1>
+        <p class="text-sm text-gray-600">Cars & Trucks for Sale — Tokyo, Japan</p>
+      </div>
+      <nav class="space-x-4 text-sm">
+        <a href="#inventory" class="hover:underline">Inventory</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 py-10">
+    <section class="mb-10 text-center">
+      <h2 class="text-3xl font-semibold">Quality cars & trucks — inspected and ready</h2>
+      <p class="mt-3 text-gray-600">Buy with confidence. Export-ready, fair prices, and full support from Tokyo.</p>
+    </section>
+
+    <section id="inventory" class="mb-12">
+      <div class="flex items-center justify-between mb-6">
+        <h3 class="text-2xl font-semibold">Inventory</h3>
+        <div class="text-sm text-gray-600">Showing sample vehicles (replace with your own)</div>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Vehicle Card -->
+        <div class="bg-white rounded-lg shadow p-4">
+          <div class="h-40 bg-gray-200 rounded-md mb-4 flex items-center justify-center text-gray-500">Image: Nissan Skyline (add your own)</div>
+          <h4 class="font-semibold">Nissan Skyline 370GT Type S (2010)</h4>
+          <p class="text-sm text-gray-600">Mileage: 58,000 km • Petrol • Automatic</p>
+          <div class="mt-3 flex items-center justify-between">
+            <div class="text-lg font-bold">¥1,200,000</div>
+            <a href="#contact" class="text-sm bg-blue-600 text-white px-3 py-1 rounded">Inquire</a>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4">
+          <div class="h-40 bg-gray-200 rounded-md mb-4 flex items-center justify-center text-gray-500">Image: Isuzu Forward (add your own)</div>
+          <h4 class="font-semibold">Isuzu Forward 4t (2016)</h4>
+          <p class="text-sm text-gray-600">Mileage: 120,000 km • Diesel • Manual</p>
+          <div class="mt-3 flex items-center justify-between">
+            <div class="text-lg font-bold">¥2,600,000</div>
+            <a href="#contact" class="text-sm bg-blue-600 text-white px-3 py-1 rounded">Inquire</a>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow p-4">
+          <div class="h-40 bg-gray-200 rounded-md mb-4 flex items-center justify-center text-gray-500">Image: Toyota Hiace (add your own)</div>
+          <h4 class="font-semibold">Toyota Hiace 2.5 (2014)</h4>
+          <p class="text-sm text-gray-600">Mileage: 95,000 km • Diesel • Automatic</p>
+          <div class="mt-3 flex items-center justify-between">
+            <div class="text-lg font-bold">¥1,350,000</div>
+            <a href="#contact" class="text-sm bg-blue-600 text-white px-3 py-1 rounded">Inquire</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="bg-white rounded-lg shadow p-6">
+      <h3 class="text-xl font-semibold mb-3">Contact</h3>
+      <p class="text-gray-600 mb-4">Email: <a class="text-blue-600" href="mailto:khanprofleet@gmail.com">khanprofleet@gmail.com</a></p>
+      <p class="text-gray-600 mb-4">WhatsApp: <span id="whatsnum">+81-XXXXXXXXXX</span> (replace with your number)</p>
+      <div class="space-y-3 sm:flex sm:space-y-0 sm:space-x-3">
+        <a id="wa" href="https://wa.me/YOUR_NUMBER" target="_blank" class="inline-block bg-green-600 text-white px-4 py-2 rounded">Message on WhatsApp</a>
+        <a href="mailto:khanprofleet@gmail.com" class="inline-block bg-blue-600 text-white px-4 py-2 rounded">Email Us</a>
+      </div>
+
+      <div class="mt-6 text-sm text-gray-500">Location: Tokyo, Japan</div>
+    </section>
+
+    <footer class="mt-12 text-center text-sm text-gray-500">
+      © Khan Pro Fleet Auto — Tokyo, Japan
+    </footer>
+  </main>
+
+  <script>
+    // Small helper: when you edit the file, replace YOUR_NUMBER in the wa link with your phone number in international format.
+    // Example Japan mobile: 819012345678  => wa.me/819012345678
+  </script>
+</body>
+</html>

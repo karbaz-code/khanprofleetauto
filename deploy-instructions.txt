@@ -1,0 +1,28 @@
+
+Deployment instructions (quick)
+-------------------------------
+
+1) Download the ZIP package and extract it to a folder on your computer.
+
+2) Upload files to the GitHub repository you created:
+   - Open your repo: https://github.com/<your-username>/khanprofleetauto
+   - Click "Add file" -> "Upload files"
+   - Drag & drop all files from the extracted folder (index.html, README.md, deploy-instructions.txt)
+   - Commit the changes (scroll down, click "Commit changes")
+
+3) Deploy to Vercel (one-click import):
+   - Go to https://vercel.com
+   - Click "New Project" -> "Import Git Repository"
+   - Select your khanprofleetauto repository (authorize GitHub if needed)
+   - Use default settings and click "Deploy"
+   - After deployment completes, you'll get a URL like: https://khanprofleetauto.vercel.app
+
+4) Optional: Connect your custom domain (khanprofleetauto.jp)
+   - Buy the domain from your registrar (Onamae, Google Domains, Namecheap)
+   - In Vercel dashboard, open the project -> Settings -> Domains -> Add
+   - Follow Vercel's DNS instructions at your domain registrar to point the domain to Vercel. Vercel provides step-by-step DNS records.
+   - After DNS propagation, your site will be live at https://khanprofleetauto.jp
+
+5) Edit content later:
+   - Edit the files locally, then re-upload changed files to GitHub (or use Git locally to push changes)
+   - Each GitHub push will trigger Vercel to re-deploy the latest version automatically.
